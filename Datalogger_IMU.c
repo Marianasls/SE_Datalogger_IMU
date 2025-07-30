@@ -13,12 +13,11 @@
 #include "mpu6050.h"
 #include "buzzer.h"
 
-
 // Trecho para modo BOOTSEL usando o botão B
 #include "pico/bootrom.h"
 
 // Nome do arquivo CSV
-#define CSV_FILENAME "imu_data1.csv"
+#define CSV_FILENAME "imu_data.csv"
 
 // variaveis globais
 ssd1306_t ssd;      // Inicializa a estrutura do display
